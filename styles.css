@@ -82,7 +82,7 @@ body {
     border: 3px solid #9e9b9b;
     margin-top: 8px;
     position: relative;
-    left: 15cm; /* Desplaza la caja 5 cm a la derecha sin afectar el layout */
+    left: 13cm; /* Desplaza la caja 5 cm a la derecha sin afectar el layout */
 }
 
 
@@ -132,7 +132,7 @@ body {
 }
 
 /* Posiciones de los subtítulos */
-#habilidades {
+#carrera {
     top: 370px;
     left: -677px;
 }
@@ -142,10 +142,6 @@ body {
     left: -970px;
 }
 
-#estudios {
-    top: 930px;
-    left: -1080px;
-}
 /* Agrega este bloque de CSS para hacer la imagen circular */
 .imagen-circular {
     width: 225px;
@@ -156,3 +152,164 @@ body {
     /* Mueve la imagen suavemente */
     transform: translate(180px, 465px); /* Mueve la imagen 30px a la derecha y 50px hacia abajo */
 }
+/* Estilo para la caja que se puede mover */
+.movable-box {
+    width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    position: absolute; /* Permite moverla libremente */
+    top: 550px; /* Posición inicial */
+    left: 500px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.movable-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.movable-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cursos-box {
+    width: 567px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: absolute; /* Permite moverla libremente */
+    top: 845px; /* Posición inicial */
+    left: 177px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.cursos-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.cursos-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.ESTRUCTURASDISCRETASII-box {
+    width: 567px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: absolute; /* Permite moverla libremente */
+    top: 1070px; /* Posición inicial */
+    left: 177px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.ESTRUCTURASDISCRETASII-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.ESTRUCTURASDISCRETASII-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.APRECIACIONMUSICAL-box {
+    width: 567px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: absolute; /* Permite moverla libremente */
+    top: 845px; /* Posición inicial */
+    left: 770px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.APRECIACIONMUSICAL-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.APRECIACIONMUSICAL-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.INTRODUCCION-box {
+    width: 567px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: absolute; /* Permite moverla libremente */
+    top: 1297px; /* Posición inicial */
+    left: 177px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.INTRODUCCION-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.INTRODUCCION-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.FILOSOFIA-box {
+    width: 567px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    position: absolute; /* Permite moverla libremente */
+    top: 1070px; /* Posición inicial */
+    left: 770px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.FILOSOFIA-box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.FILOSOFIA-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.HABILIDADES-box {
+    width: 567px;
+    padding: 20px;
+    color: #000000;
+    border-radius: 10px;
+    position: absolute; /* Permite moverla libremente */
+    top: 1600px; /* Posición inicial */
+    left: 220px; /* Posición inicial */
+    cursor: move; /* Cambia el cursor para indicar que es movible */
+    z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
+}
+
+.HABILIDADES-box h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.HABILIDADES-box p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+

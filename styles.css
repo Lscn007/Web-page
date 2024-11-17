@@ -134,15 +134,25 @@ body {
 /* Posiciones de los subtítulos */
 #habilidades {
     top: 370px;
-    left: -800px;
+    left: -677px;
 }
 
 #cursos {
-    top: 650px;
+    top: 700px;
     left: -970px;
 }
 
 #estudios {
     top: 930px;
     left: -1080px;
+}
+/* Agrega este bloque de CSS para hacer la imagen circular */
+.imagen-circular {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    /* Mueve la imagen suavemente */
+    transform: translate(180px, 465px); /* Mueve la imagen 30px a la derecha y 50px hacia abajo */
 }

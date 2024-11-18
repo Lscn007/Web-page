@@ -82,7 +82,7 @@ body {
     border: 3px solid #9e9b9b;
     margin-top: 8px;
     position: relative;
-    left: 13cm; /* Desplaza la caja 5 cm a la derecha sin afectar el layout */
+    left: 15cm; /* Desplaza la caja 5 cm a la derecha sin afectar el layout */
 }
 
 
@@ -99,10 +99,13 @@ body {
 /* Botones para redes sociales */
 .social-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Puedes cambiar esto a 'flex-start' o 'flex-end' para ajustar horizontalmente */
     gap: 15px;
-    margin-top: 15px;
+    margin-top: 185px; /* Ajusta esta distancia para mover hacia abajo o arriba */
+    position: relative;
+    left: 150px; /* Ajusta este valor para mover a la derecha o izquierda */
 }
+
 
 .btn {
     padding: 10px 20px;
@@ -133,8 +136,8 @@ body {
 
 /* Posiciones de los subtítulos */
 #carrera {
-    top: 370px;
-    left: -677px;
+    top: 350px;
+    left: -800px;
 }
 
 #cursos {
@@ -185,7 +188,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     position: absolute; /* Permite moverla libremente */
     top: 845px; /* Posición inicial */
-    left: 177px; /* Posición inicial */
+    left: 120px; /* Posición inicial */
     cursor: move; /* Cambia el cursor para indicar que es movible */
     z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
 }
@@ -208,7 +211,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     position: absolute; /* Permite moverla libremente */
     top: 1070px; /* Posición inicial */
-    left: 177px; /* Posición inicial */
+    left: 120px; /* Posición inicial */
     cursor: move; /* Cambia el cursor para indicar que es movible */
     z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
 }
@@ -231,7 +234,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     position: absolute; /* Permite moverla libremente */
     top: 845px; /* Posición inicial */
-    left: 770px; /* Posición inicial */
+    left: 720px; /* Posición inicial */
     cursor: move; /* Cambia el cursor para indicar que es movible */
     z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
 }
@@ -254,7 +257,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     position: absolute; /* Permite moverla libremente */
     top: 1297px; /* Posición inicial */
-    left: 177px; /* Posición inicial */
+    left: 120px; /* Posición inicial */
     cursor: move; /* Cambia el cursor para indicar que es movible */
     z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
 }
@@ -277,7 +280,7 @@ body {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     position: absolute; /* Permite moverla libremente */
     top: 1070px; /* Posición inicial */
-    left: 770px; /* Posición inicial */
+    left: 720px; /* Posición inicial */
     cursor: move; /* Cambia el cursor para indicar que es movible */
     z-index: 10; /* Para asegurarse de que esté por encima de otros elementos */
 }
@@ -311,5 +314,34 @@ body {
 .HABILIDADES-box p {
     font-size: 16px;
     line-height: 1.5;
+}
+.IMAGEN-box {
+    width: 567px;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 1730px; /* Ajusta la posición según tu diseño */
+    left: 400px;
+    cursor: move;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IMAGEN-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+a {
+    color: #aff11e; /* Cambia el color al que prefieras */
+}
+a:hover {
+    color: #157ef6;
 }
 
